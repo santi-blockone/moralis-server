@@ -17,6 +17,12 @@ Parse.Cloud.define('requestMessage', async ({ params }: any) => {
   return { message };
 });
 
+
+Parse.Cloud.define('users', () => {
+  // Not implemented, only excists to remove client-side errors when using the moralis-v1 package
+  return [];
+});
+
 Parse.Cloud.define('getPluginSpecs', () => {
   // Not implemented, only excists to remove client-side errors when using the moralis-v1 package
   return [];
