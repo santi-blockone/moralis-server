@@ -6,10 +6,10 @@ export interface RequestMessage {
   networkType: string;
 }
 
-const DOMAIN = '';
+const DOMAIN = 'nebulagames.io';
 const STATEMENT = 'Please sign this message to confirm your identity.';
-const URI = '';
-const EXPIRATION_TIME = '2028-01-01T00:00:00.000Z';
+const URI = 'https://nebulagames.io';
+const EXPIRATION_TIME = '2043-01-01T00:00:00.000Z';
 const TIMEOUT = 15;
 
 export async function requestMessage({
